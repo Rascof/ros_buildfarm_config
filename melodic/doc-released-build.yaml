@@ -7,9 +7,10 @@ documentation_type: released_manifest
 jenkins_job_priority: 85
 jenkins_job_timeout: 30
 notifications:
+  committers: false
+  maintainers: false
   emails:
-  - ros-buildfarm-melodic@googlegroups.com
-  - clalancette+buildfarm@osrfoundation.org
+  - thomas.peyrucain@gmail.com
 targets:
   ubuntu:
     bionic:

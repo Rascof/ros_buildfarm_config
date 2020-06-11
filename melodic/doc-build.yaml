@@ -9,10 +9,9 @@ jenkins_job_priority: 85
 jenkins_job_timeout: 120
 notifications:
   committers: false
+  maintainers: false
   emails:
-  - ros-buildfarm-melodic@googlegroups.com
-  - clalancette+buildfarm@osrfoundation.org
-  maintainers: true
+  - thomas.peyrucain@gmail.com
 repositories:
   keys:
   - |
