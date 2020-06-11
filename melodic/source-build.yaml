@@ -48,9 +48,9 @@ repositories:
   urls:
   - http://repositories.ros.org/ubuntu/testing
 targets:
-  ubuntu:
-    bionic:
-      amd64:
+  _config:
+    custom_rosdep_urls:
+      - https://raw.githubusercontent.com/Rascof/rosdistro/master/rosdep/sources.list.d/20-default.list
 test_commits:
   default: true
 test_pull_requests:
